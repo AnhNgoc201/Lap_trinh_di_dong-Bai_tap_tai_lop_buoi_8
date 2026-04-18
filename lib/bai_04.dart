@@ -24,13 +24,15 @@ class _AudioPlayerHomeState extends State<AudioPlayerHome> {
 
 // Danh sách các bài hát (từ assets)
   final List<String> _songs = [
-    'assets/audios/sample1.mp3',
-    'assets/audios/sample2.mp3',
-    'assets/audios/sample3.mp3',
+    'assets/audios/hieuthuhai.mp3',
+    'assets/audios/dep-ma.mp3',
+    'assets/audios/dep-ma-duoc-si-tien.mp3'
+
+
   ];
 
 // Tên bài hát để hiển thị
-  final List<String> _songTitles = ['sample1', 'sample2', 'sample3'];
+  final List<String> _songTitles = ['hieuthuhai', 'dep-ma', 'dep-ma-duoc-si-tien'];
 
   @override
   void initState() {
